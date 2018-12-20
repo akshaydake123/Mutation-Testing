@@ -15,9 +15,7 @@ Mutation testing is a structural testing technique, which uses the structure of 
 • Statement Mutations: Changes done to the statements by deleting or duplicating the line which might arise when a developer is copy pasting the code from somewhere else.
 
 # About Project and Testing Strategy:
-This project is about Testing Ticket Application.It contains various tickets of possible travel. I.e Train,Bus,Taxi,Ship and for the extension we also used these methods to do same for Movie,Hotel.
-
-The strategy for test cases is that we consider all possible combination of tickets that can be form i.e Consider example for Bus ticket in bus ticket there are three possible type of ticket like
+This project is about Testing Ticket Application.It contains various tickets of possible travel. I.e Train,Bus,Taxi,Ship and for the extension we also used these methods to do same for Movie,Hotel.The strategy for test cases is that we consider all possible combination of tickets that can be form i.e Consider example for Bus ticket in bus ticket there are three possible type of ticket like
 #
 1.Ticket for child
 #
@@ -26,26 +24,19 @@ The strategy for test cases is that we consider all possible combination of tick
 3.Ticket for Senior Citizen
 #
 So the test cases are for type of tickets
- 1.calculatePriceForChild
-• Which basically pass only one adult persons age
+ 1.calculatePriceForChild ==>> Which basically pass only one adult persons age
 #
-2.calculatePriceForFamily
-• For family it contains two adult and two child passengers
+2.calculatePriceForFamily ==>> For family it contains two adult and two child passengers
 #
-3.calculatePriceForChildNarrowCase
-• Child Narrow case is like a person who’s age is exactly18 years.
+3.calculatePriceForChildNarrowCase ==>> Child Narrow case is like a person who’s age is exactly18 years.
 #
-4.calculatePriceForFreeTicketNarrowCase
-• For free ticket narrow case is like person who’s age is exactly 3 years
+4.calculatePriceForFreeTicketNarrowCase ==>> For free ticket narrow case is like person who’s age is exactly 3 years
 #
-5. shouldNotCalculatePriceForFamilyEdgeCaseWithAdults
-• In this case we have 2 adult passengers and 1 Child
+5.shouldNotCalculatePriceForFamilyEdgeCaseWithAdults ==>> In this case we have 2 adult passengers and 1 Child
 #
-6. shouldNotCalculatePriceForFamilyEdgeCaseWithChildren
-• Here we have 2 child passengers and 1 adult passenger
+6.shouldNotCalculatePriceForFamilyEdgeCaseWithChildren ==>> Here we have 2 child passengers and 1 adult passenger
 #
-7.calculatePriceForOneAdult
-• Here we have only 1 adult passenger.
+7.calculatePriceForOneAdult ==>> Here we have only 1 adult passenger.
 #
 So strategy used for other type of tickets like tickets for AirPlane,Taxi,Ship,Train and Similar can be used for Movie ,Hotels and Parks
 # Tools and Plugins used
