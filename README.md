@@ -10,11 +10,12 @@ Mutation testing is a structural testing technique, which uses the structure of 
 • Value Mutations: An attempt to change the values to detect errors in the programs. We usually change one value to a much larger value or one value to a much smaller value. The most common strategy is to change the constants.
 • Decision Mutations: The decisions/conditions are changed to check for the design errors. Typically, one changes the arithmetic operators to locate the defects and also we can consider mutating all relational operators and logical operators (AND, OR , NOT)
 • Statement Mutations: Changes done to the statements by deleting or duplicating the line which might arise when a developer is copy pasting the code from somewhere else.
-About Project and Testing Strategy:
+
+# About Project and Testing Strategy:
 This project is about Testing Ticket Application.It contains various tickets of possible travel. I.e Train,Bus,Taxi,Ship and for the extension we also used these methods to do same for Movie,Hotel.
 
 The strategy for test cases is that we consider all possible combination of tickets that can be form i.e Consider example for Bus ticket in bus ticket there are three possible type of ticket like
-
+#
 1.Ticket for child
 2.Ticket for Adult
 3.Ticket for Senior Citizen
@@ -34,7 +35,7 @@ So the test cases are for type of tickets
 7.calculatePriceForOneAdult
 • Here we have only 1 adult passenger.
 So strategy used for other type of tickets like tickets for AirPlane,Taxi,Ship,Train and Similar can be used for Movie ,Hotels and Parks
-Tools and Plugins used
+# Tools and Plugins used
 1.PIT 2.JUnit
 # 1.PIT
 PIT runs your unit tests against automatically modified versions of your application
