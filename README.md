@@ -24,7 +24,8 @@ This project is about Testing Ticket Application.It contains various tickets of 
 3.Ticket for Senior Citizen
 #
 So the test cases are for type of tickets
- 1.calculatePriceForChild ==>> Which basically pass only one adult persons age
+#
+1.calculatePriceForChild ==>> Which basically pass only one adult persons age
 #
 2.calculatePriceForFamily ==>> For family it contains two adult and two child passengers
 #
